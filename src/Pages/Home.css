@@ -1,7 +1,10 @@
-/* body {
-    background-color: white;
+.logo {
+    display: flex;
+    justify-content: center;
 }
 
-.hola {
-    color: #397674;
-} */
+@font-face {
+    font-family: 'canela_light';
+    src: url('./assets/fonts/canela_light.otf') format('truetype');
+  } 
+  

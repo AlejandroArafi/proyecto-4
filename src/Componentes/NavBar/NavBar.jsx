@@ -16,8 +16,7 @@ export const NavBar = () => {
     // </nav>
 
     <>
-    <img src="{mesa}" alt="" />
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
   <div className="container-fluid">
     {/* <NavLink className="navbar-brand" to="/" ><img src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24"/></NavLink> */}
    
