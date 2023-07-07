@@ -7,8 +7,9 @@ export const Home = () => {
   return (
     <>
     <h1 className='logo'>Di Santi</h1>
+    <p>Restorant</p>
     <Carrusel/>
-   
+
     </>
   )
 }

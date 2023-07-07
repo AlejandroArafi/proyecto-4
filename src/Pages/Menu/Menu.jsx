@@ -249,11 +249,11 @@ export const Menu = () => {
   <li>ALLA GENOVESE</li>
   <p>Salmon, Merluza Austral o Reineta Con salsa de tomate cherry, orégano, aceitunas y alcaparra.</p>
 
-<h2>CONGRIO A LA MEDITERRANEA</h2>
-<h3>Cocinado con Hierbas Frescas, Ajo, Zeste de limon, Oliva y Vino Blanco</h3>
+<li>CONGRIO A LA MEDITERRANEA</li>
+<p>Cocinado con Hierbas Frescas, Ajo, Zeste de limon, Oliva y Vino Blanco</p>
 
-<h2>CONGRIO SALSA MARGARITA</h2>
-<h3>Congrio Grill con Salsa de Mariscos de la Temporada</h3>
+<li>CONGRIO SALSA MARGARITA</li>
+<p>Congrio Grill con Salsa de Mariscos de la Temporada</p>
     </div>
   </div>
 </div>

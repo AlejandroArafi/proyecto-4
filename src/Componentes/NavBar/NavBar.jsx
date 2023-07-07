@@ -5,7 +5,7 @@ import './NavBar.css'
 
 
 
-export const NavBar = () => {
+export const NavBar = ({nombre='Home'}) => {
   return (
     
     // <nav className='navbar'>
@@ -26,7 +26,7 @@ export const NavBar = () => {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <NavLink className="nav-link active" to="/">Home</NavLink>
+          <NavLink className="nav-link" to="/">{nombre}</NavLink>
         </li>
         <li className="nav-item">
           <NavLink className="nav-link" to="/about">About</NavLink>
