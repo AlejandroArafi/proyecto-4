@@ -1,82 +1,48 @@
-/* .menu-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 40px;
-    text-align: center;
-  }
-  
-  h1 {
-    font-family: 'Arial', sans-serif;
-    font-size: 28px;
-    color: #333;
-    margin-bottom: 20px;
-  }
-  
-  h2 {
-    font-family: 'Georgia', serif;
-    font-size: 24px;
-    color: #555;
-    margin-bottom: 10px;
-  }
-  
-  h3 {
-    font-family: 'Arial', sans-serif;
-    font-size: 18px;
-    color: #777;
-    margin-bottom: 20px;
-  }
-   */
+h1 {
+  display: flex;
+  justify-content: center;
+}
 
-      /* .menu-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+.entradas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-   } */
+.pastas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-   
+.carnes-y-pescados {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+.vinos-y-espumantes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+.postres-y-cafes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
 
-   /* .container-1, li, ul{
-    display: flex;
-    flex-direction: column;
-   justify-content: center;
-    background-color: rgb(189, 57, 57);
-   } */
+dt {
+  text-transform: uppercase;
+}
 
-   .container-1 {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  .row {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .col {
-    flex-basis: 50%;
-  }
-  
-  h1 {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  li {
-    margin-bottom: 5px;
-  }
-  
-  p {
-    margin-bottom: 10px;
-    color: #777;
-    text-align: left;
-  }
-  
+dd {
+  text-transform: lowercase;
+}
