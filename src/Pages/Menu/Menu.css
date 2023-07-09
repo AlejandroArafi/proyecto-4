@@ -33,32 +33,9 @@
 
    } */
 
-   .titulo-container {
-    display: flex;
-    justify-content: center;
-    font-family:'canela';
-    font-size: 60px;
-    
-   }
+   
 
 
-   li {
-    list-style: none;
-    font-weight: 600;
-    /* font-family: 'canela_light'; */
-
-   }
-
-   .container-1 {
-    display: flex;
-    text-align: left;
-  }
-  
-  .col {
-    display: flex;
-    text-align: left;
-  }
-  
 
    /* .container-1, li, ul{
     display: flex;
@@ -66,3 +43,40 @@
    justify-content: center;
     background-color: rgb(189, 57, 57);
    } */
+
+   .container-1 {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .col {
+    flex-basis: 50%;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  p {
+    margin-bottom: 10px;
+    color: #777;
+    text-align: left;
+  }
+  
