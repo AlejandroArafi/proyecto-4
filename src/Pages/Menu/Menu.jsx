@@ -173,10 +173,16 @@ export const Menu = () => {
 
 </div> */}
 
-<div class="container">
+<h1 className='titulo-container'>carta</h1>
+
+
+
+
+<div className="container-1">
 
   <div class="row">
     <div class="col">
+      <h1>entradas</h1>
       <ul>
       <li>Calamares a la romana</li>
         <p> Calamares apanados y fritos</p>
@@ -201,7 +207,10 @@ export const Menu = () => {
         </ul>
     </div>
 
+
+{/* pastas */}
     <div class="col">
+      <h1>pastas</h1>
       <li>SPAGHETTI POMODORO</li>
     <p>Con tomate italiano natural y albahaca.</p>
 
@@ -216,6 +225,9 @@ export const Menu = () => {
     </div>
   </div>
 </div>
+
+
+{/* nuevo container */}
 
 <div class="container">
   <div class="row">
@@ -238,6 +250,8 @@ export const Menu = () => {
 <li>LOMO VETADO EN SALSA FUNGHI</li>
 <p>LOMO SALSA FUNGHI</p>
     </div>
+    
+    {/* pescados */}
     <div class="col">
       <h1>Pescados</h1>
 
@@ -258,87 +272,102 @@ export const Menu = () => {
   </div>
 </div>
 
+
+{/* nuevo container */}
+
 <div class="container">
   <div class="row">
     <div class="col">
     <h2>ARROZ</h2>
 
-<h2>PAPAS FRITAS</h2>
+<li>PAPAS FRITAS</li>
 
-<h2>PAPAS SALTEADAS</h2>
+<li>PAPAS SALTEADAS</li>
 
-<h2>ENSALADA MIXTA</h2>
+<li>ENSALADA MIXTA</li>
 
-<h2>PANACHE DE VERDURAS</h2>
+<li>PANACHE DE VERDURAS</li>
 
-<h2>POLENTA</h2>
+<li>POLENTA</li>
 
-<h2>PURE DE PAPAS</h2>
+<li>PURE DE PAPAS</li>
 
-<h2>PURE DE ESPINACAS</h2>
+<li>PURE DE ESPINACAS</li>
 
-<h2>CHAMPIÑONES SALTEADOS</h2>
+<li>CHAMPIÑONES SALTEADOS</li>
     </div>
+
+{/* vinos */}
+
     <div class="col">
     <h1>VINOS</h1>
 
-<h2>CASAS PATRONALES RESERVA</h2>
-<h2>CHOCALAN RESERVA</h2>
-<h2>SANTA EMA SELECT TERROIR RESERVA</h2>
-<h2>MONTES ALPHA</h2>
+<li>CASAS PATRONALES RESERVA</li>
+<li>CHOCALAN RESERVA</li>
+<li>SANTA EMA SELECT TERROIR RESERVA</li>
+<li>MONTES ALPHA</li>
 
 <h1>ESPUMANTES</h1>
 
-<h2>VIÑA MAR BRUT</h2>
-<h2>RICCARDONA ASTI</h2>
-<h2>CHARDON BRUT</h2>
+<li>VIÑA MAR BRUT</li>
+<li>RICCARDONA ASTI</li>
+<li>CHARDON BRUT</li>
     </div>
     
   </div>
 </div>
+
+
+
+{/* nuevo container */}
 
 <div class="container">
   <div class="row">
     <div class="col">
     <h1>POSTRES Y CAFES</h1>
 
-<h2>COLORI DI STAGIONE</h2>
-<h3>ENSALADA DE FRUTAS DE LA TEMPORADA</h3>
+<li>COLORI DI STAGIONE</li>
+<p>ENSALADA DE FRUTAS DE LA TEMPORADA</p>
 
-<h2>TIRAMISú CLáSICO</h2>
+<li>TIRAMISú CLáSICO</li>
 
-<h2>FIOR DI LIMONE</h2>
-<h3>Torta de panqueque y limón al estilo Due Torri.</h3>
+<li>FIOR DI LIMONE</li>
+<p>Torta de panqueque y limón al estilo Due Torri.</p>
 
-<h2>PANNA COTTA DEL BOSCO</h2>
-<h3>Con ragu de frutos del bosque.</h3>
+<li>PANNA COTTA DEL BOSCO</li>
+<p>Con ragu de frutos del bosque.</p>
 
-<h2>VOLCANO DE CHOCOLATE</h2>
-<h3>Volcan con deliciosa salsa de chocolate tibio y helado de vainilla.</h3>
+<li>VOLCANO DE CHOCOLATE</li>
+<p>Volcan con deliciosa salsa de chocolate tibio y helado de vainilla.</p>
 
-<h2>CHEESECAKE DUE TORRI</h2>
-<h3>Chessecake clasico con frutilla y salsa de nutella.</h3>
+<li>CHEESECAKE DUE TORRI</li>
+<p>Chessecake clasico con frutilla y salsa de nutella.</p>
 
-<h2>TORTA FIRENZE</h2>
-<h3>Crema Inglesa, manjar, almendras y galletas de vino.</h3>
+<li>TORTA FIRENZE</li>
+<p>Crema Inglesa, manjar, almendras y galletas de vino.</p>
 
-<h2>BROWNIE E GELATTO</h2>
-<h3>Clásico bizcocho de chocolate con helado de vainilla, salsa de chocolate y nueces.</h3>
+<li>BROWNIE E GELATTO</li>
+<p>Clásico bizcocho de chocolate con helado de vainilla, salsa de chocolate y nueces.</p>
     </div>
+
+
+    {/* te y cafe */}
+    
     <div class="col">
     <h1>CAFETERIA-TETERIA</h1>
 
-<h2>TE IMPORTADO</h2>
+<li>TE IMPORTADO</li>
 
-<h2>CAFÉ ESPRESSO</h2>
+<li>CAFÉ ESPRESSO</li>
 
-<h2>CORTADO</h2>
+<li>CORTADO</li>
 
-<h2>CAPUCCINO</h2>
+<li>CAPUCCINO</li>
     </div>
     
   </div>
 </div>
+
 
     </>
   )

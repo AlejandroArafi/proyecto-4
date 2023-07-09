@@ -14,3 +14,17 @@
     margin-bottom: 0px;
 }
 
+.parrafo-container {
+    background-color: #212529;
+    overflow: auto;
+ 
+}
+
+.parrafo {
+    background-color: #212529;
+    color: white;
+    font-family: 'canela_light';
+    margin-left: 20px;
+    margin-right: 20px;
+
+}

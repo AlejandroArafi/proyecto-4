@@ -27,20 +27,42 @@
   }
    */
 
-   .titulo-container {
-    display: flex;
-    justify-content: center;
-    font-family: Georgia;
-    font-size: 60px;
-   }
-
-   /* .menu-container {
+      /* .menu-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 
    } */
+
+   .titulo-container {
+    display: flex;
+    justify-content: center;
+    font-family:'canela';
+    font-size: 60px;
+    
+   }
+
+
    li {
     list-style: none;
     font-weight: 600;
+    /* font-family: 'canela_light'; */
 
    }
+
+   .container-1 {
+    display: flex;
+    text-align: left;
+  }
+  
+  .col {
+    display: flex;
+    text-align: left;
+  }
+  
+
+   /* .container-1, li, ul{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+    background-color: rgb(189, 57, 57);
+   } */
