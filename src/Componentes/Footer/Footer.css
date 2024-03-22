@@ -32,14 +32,17 @@ color:#397674;
 .direccion {
   font-size: 18px;
   margin-bottom: 20px;
+  font-family: Notoserif;
 }
 
 .telefono {
   font-size: 16px;
   margin-bottom: 20px;
+  font-family: Notoserif;
 }
 
 .copyright {
   font-size: 14px;
   margin-top: 20px;
+  font-family: Notoserif;
 }

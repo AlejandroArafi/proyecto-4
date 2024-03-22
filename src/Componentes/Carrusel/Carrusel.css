@@ -11,3 +11,9 @@
     border: green 10px solid;
     padding: 0px 50px
 } */
+
+
+.carrusel-container {
+  margin: 0 20px 20px; /* margenes a los costados y abajo */
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3); /* efecto de sombra más pronunciado */
+}

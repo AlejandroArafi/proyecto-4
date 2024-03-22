@@ -4,7 +4,7 @@ import "./Menu.css";
 export const Menu = () => {
   return (
     <>
-      <h1>Entradas</h1>
+      <h1 className="entradas_title">Entradas</h1>
 
       <dl className="entradas">
         <dt>CALAMARES A LA ROMANA</dt>

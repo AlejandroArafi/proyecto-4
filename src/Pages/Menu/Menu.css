@@ -1,48 +1,68 @@
+body {
+  font-family: 'Times New Roman', serif; /* Una fuente con serifa añade un toque de elegancia */
+  background-color: #f4f1ee; /* Un color de fondo neutro y suave */
+  color: #403d39; /* Un gris oscuro para el texto, proporciona contraste suave */
+  margin: 0;
+  padding: 0;
+
+}
+
+.entradas_title {
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+
+
 h1 {
-  display: flex;
-  justify-content: center;
+  text-align: center;
+  color: #5e574d; /* Un marrón grisáceo, elegante y sobrio */
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 1.8em; /* Un tamaño de fuente prominente pero no excesivo */
 }
 
-.entradas {
+.menu-section, dl {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  width: 70%; /* Da más espacio al contenido central */
+  margin: 20px auto; /* Espaciado uniforme */
+  background-color: #faf8f6; /* Un fondo ligeramente distinto al del cuerpo para diferenciar secciones */
+  border: 1px solid #e6e4e1; /* Un borde sutil */
+  border-radius: 5px; /* Bordes levemente redondeados para suavidad */
+  padding: 20px; /* Espacio interior adecuado */
 }
 
-.pastas {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.carnes-y-pescados {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.vinos-y-espumantes {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.postres-y-cafes {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 50px;
-}
 
 dt {
   text-transform: uppercase;
+  color: #5e574d; /* Manteniendo la coherencia con el color del título */
+  margin: 15px 0 5px 0; /* Espacio antes de cada título de plato y menos espacio antes de la descripción */
+  font-size: 1.1em; /* Tamaño ligeramente mayor para destacar */
 }
 
 dd {
-  text-transform: lowercase;
+  text-transform: capitalize; /* Primer letra de cada palabra en mayúscula para un toque de elegancia */
+  color: #403d39; /* Color coherente con el cuerpo para las descripciones */
+  margin-bottom: 15px; /* Espaciado después de las descripciones */
+}
+
+/* Adaptaciones a diferentes tamaños de pantalla para mejorar la legibilidad */
+@media (max-width: 600px) {
+  dl {
+    font-size: 0.9em;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  dl {
+    font-size: 1em;
+  }
+}
+
+@media (min-width: 1025px) {
+  dl {
+    font-size: 1.1em; /* Un poco más grande en pantallas grandes */
+  }
 }

@@ -3,3 +3,13 @@
   font-family: 'canela_light';
   src: url('./assets/fonts/canela_light.otf') format('truetype');
 } 
+
+@font-face {
+  font-family: 'Autography';
+  src: url('./assets/fonts/Autography.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'NotoSerif';
+  src: url('./assets/fonts/NotoSerif-Regular.ttf') format('truetype');
+}

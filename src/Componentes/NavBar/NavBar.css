@@ -3,7 +3,10 @@
   src: url('./assets/fonts/canela_light.otf') format('truetype');
 } 
 
-
+.navbar a:hover {
+  color: #f07b14; /* Cambia el color del texto cuando se pasa el ratón por encima */
+  transition: color 0.3s ease; /* Añade una transición suave */
+}
 
 /* @font-face {font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif;
